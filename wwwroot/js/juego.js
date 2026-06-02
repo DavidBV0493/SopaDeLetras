@@ -33,7 +33,13 @@ let celdasSeleccionadas = [];
 let direccionFijada = null;
 const tableroEl = document.getElementById("tablero");
 
-// ── Eventos del tablero ────────────────────────────────────
+// ── Obtener td desde coordenadas táctiles ─────────────────
+function getTdFromTouch(touch) {
+    const el = document.elementFromPoint(touch.clientX, touch.clientY);
+    return el ? el.closest("td") : null;
+}
+
+// ── Eventos del MOUSE ────────────────────────────────────
 tableroEl.addEventListener("mousedown", e => {
     if (!juegoIniciado) return;
     const td = e.target.closest("td");
@@ -58,13 +64,39 @@ document.addEventListener("mouseup", () => {
     verificarPalabra();
 });
 
+// ── Eventos TÁCTILES ──────────────────────────────────────
+tableroEl.addEventListener("touchstart", e => {
+    if (!juegoIniciado) return;
+    e.preventDefault(); // Evita scroll mientras se selecciona
+    const td = getTdFromTouch(e.touches[0]);
+    if (!td) return;
+    seleccionando = true;
+    celdasSeleccionadas = [];
+    direccionFijada = null;
+    limpiarSeleccion();
+    agregarCelda(td);
+}, { passive: false });
+
+tableroEl.addEventListener("touchmove", e => {
+    if (!seleccionando) return;
+    e.preventDefault(); // Evita scroll mientras se arrastra
+    const td = getTdFromTouch(e.touches[0]);
+    if (!td) return;
+    agregarCelda(td);
+}, { passive: false });
+
+tableroEl.addEventListener("touchend", e => {
+    if (!seleccionando) return;
+    e.preventDefault();
+    seleccionando = false;
+    verificarPalabra();
+}, { passive: false });
+
 // ── Helpers ────────────────────────────────────────────────
 function agregarCelda(td) {
     const f = parseInt(td.dataset.fila);
     const c = parseInt(td.dataset.col);
     if (celdasSeleccionadas.some(s => s.f === f && s.c === c)) return;
-    // celdasSeleccionadas.push({ f, c, td });
-    // td.style.backgroundColor = "#ffe066";
     if (celdasSeleccionadas.length === 0) {
         celdasSeleccionadas.push({ f, c, td });
         td.style.backgroundColor = "#ffe066";

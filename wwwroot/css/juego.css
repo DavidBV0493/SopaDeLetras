@@ -60,6 +60,46 @@ table.tablero td.resuelta {
     font-weight: bold;
 }
 
+* {
+    -webkit-tap-highlight-color: transparent;
+    touch-action: manipulation;
+}
+
+table.tablero {
+    width: 100%;
+    table-layout: fixed;
+}
+
+.tablero td {
+    width: auto;
+    height: auto;
+    aspect-ratio: 1; /* siempre cuadradas */
+    font-size: clamp(8px, 2.2vw, 16px); /* texto escala con la pantalla */
+    padding: 0;
+}
+
+@media (max-width: 600px) {
+    .botones-accion {
+        flex-direction: column;
+    }
+
+    .btn-iniciar,
+    .btn-resolver,
+    .btn-reiniciar {
+        width: 100%;
+        padding: 12px;
+        font-size: 1rem;
+    }
+
+    .palabras-lista {
+        font-size: 0.85rem;
+    }
+
+    .timer {
+        font-size: 1.1rem;
+    }
+}
+
 .inicio-container {
     max-width: 420px;
     margin: 60px auto;
