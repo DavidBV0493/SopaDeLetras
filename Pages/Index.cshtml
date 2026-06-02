@@ -1,0 +1,39 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "SOPA DE LETRAS";
+}
+
+<link rel="stylesheet" href="~/css/juego.css" />
+
+<div class="container inicio-container">
+    <h1 class="inicio-titulo">🔤 Sopa de Letras</h1>
+    <p class="inicio-subtitulo">Configura tu partida antes de comenzar</p>
+    <form method="get" action="/Juego" class="inicio-form">
+
+        <!-- Categoría -->
+        <div class="inicio-campo">
+            <label for="Categoria">📂 Categoría</label>
+            <select id="Categoria" name="Categoria" class="inicio-select">
+                @foreach (var cat in Model.Categorias)
+                {
+                    <option value="@cat">@cat</option>
+                }
+            </select>
+        </div>
+
+        <!-- Tamaño del tablero -->
+        <div class="inicio-campo">
+            <label for="Size">📐 Tamaño del tablero</label>
+            <select id="Size" name="Size" class="inicio-select">
+                <option value="10">10 × 10 — Fácil</option>
+                <option value="15" selected>15 × 15 — Normal</option>
+                <option value="20">20 × 20 — Difícil</option>
+            </select>
+        </div>
+
+        <button type="submit" class="btn-iniciar btn-jugar">▶ JUGAR</button>
+
+    </form>
+
+</div>

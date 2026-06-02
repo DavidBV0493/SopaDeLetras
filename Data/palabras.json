@@ -1,0 +1,12 @@
+{
+  "categorias": [
+    {
+      "nombre": "Tecnologia",
+      "palabras": [ "SOCKET", "HILO", "SERVIDOR", "CLIENTE", "RED", "PROTOCOLO", "BUFFER", "PUERTO", "LATENCIA", "PAQUETE" ]
+    },
+    {
+      "nombre": "Programacion",
+      "palabras": [ "CLASE", "OBJETO", "METODO", "INTERFAZ", "HERENCIA", "POLIMORFISMO", "LAMBDA", "DELEGADO", "EVENTO", "TAREA" ]
+    }
+  ]
+}

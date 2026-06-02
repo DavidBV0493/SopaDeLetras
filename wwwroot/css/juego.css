@@ -1,0 +1,174 @@
+﻿table.tablero {
+    border-collapse: separate;
+    border-spacing: 4px;
+}
+
+.tablero td {
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    cursor: auto;
+    font-weight: bold;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    user-select: none;
+    background-color: white;
+}
+
+.tablero td:hover {
+    background-color: #e0f0ff !important;
+}
+
+table.tablero td.seleccionada {
+    background-color: #ffe066 !important;
+}
+
+table.tablero td.encontrada {
+    background-color: #90ee90 !important;
+}
+
+table.tablero td.resuelta {
+    background-color: #ff9999 !important;
+}
+
+.tachada {
+    text-decoration: line-through;
+    color: gray;
+}
+
+.timer {
+    font-size: 1.4rem;
+    margin: 8px 0;
+}
+
+.btn-resolver {
+    background: #e74c3c;
+    color: #fff;
+    padding: 8px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin: 10px 0;
+}
+
+.palabra-tag {
+    display: inline-block;
+    margin: 4px;
+    padding: 4px 10px;
+    background: #ecf0f1;
+    border-radius: 12px;
+    font-weight: bold;
+}
+
+.inicio-container {
+    max-width: 420px;
+    margin: 60px auto;
+    text-align: center;
+}
+
+.inicio-titulo {
+    font-size: 2.4rem;
+    font-weight: bold;
+    margin-bottom: 6px;
+}
+
+.inicio-subtitulo {
+    color: #666;
+    margin-bottom: 32px;
+    font-size: 1rem;
+}
+
+.inicio-form {
+    background: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 12px;
+    padding: 28px 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.inicio-campo {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    text-align: left;
+}
+
+.inicio-campo label {
+    font-weight: bold;
+    font-size: 0.95rem;
+}
+
+.inicio-select {
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1rem;
+    background: white;
+    cursor: pointer;
+}
+
+.inicio-select:focus {
+    outline: none;
+    border-color: #2980b9;
+    box-shadow: 0 0 0 2px rgba(41,128,185,0.2);
+}
+
+.btn-jugar {
+    margin-top: 8px;
+    font-size: 1.1rem;
+    padding: 10px;
+    width: 100%;
+}
+
+.btn-iniciar {
+    background: #2980b9;
+    color: #fff;
+    padding: 8px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1rem;
+    margin: 10px 0;
+}
+
+.btn-iniciar:hover:not(:disabled) {
+    background: #1f6391;
+}
+
+.botones-accion {
+    display: flex;
+    gap: 10px;
+    margin: 10px 0;
+}
+
+.btn-iniciar:disabled {
+    background: #7f8c8d;
+    cursor: not-allowed;
+}
+
+.tablero-bloqueado {
+    opacity: 0.4;
+    pointer-events: none; 
+    filter: blur(1px); 
+}
+
+.btn-reiniciar {
+    background: #27ae60;
+    color: #fff;
+    padding: 8px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin: 10px 0;
+}
+
+.btn-reiniciar:hover {
+    background: #219150;
+}
+
+.btn-resolver:hover {
+    background: #c0392b;
+}

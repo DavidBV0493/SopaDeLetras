@@ -1,0 +1,253 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Documentos\\Politecnico JIC\\Programaci\u00F3n distribuida y paralela\\SopaDeLetras.Web\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C1E0B14C-FA00-5B99-2686-FB7FE7461915}|SopaDeLetras.Web.csproj|e:\\documentos\\politecnico jic\\programaci\u00F3n distribuida y paralela\\sopadeletras.web\\pages\\juego.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1E0B14C-FA00-5B99-2686-FB7FE7461915}|SopaDeLetras.Web.csproj|solutionrelative:pages\\juego.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1E0B14C-FA00-5B99-2686-FB7FE7461915}|SopaDeLetras.Web.csproj|e:\\documentos\\politecnico jic\\programaci\u00F3n distribuida y paralela\\sopadeletras.web\\services\\tableroservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1E0B14C-FA00-5B99-2686-FB7FE7461915}|SopaDeLetras.Web.csproj|solutionrelative:services\\tableroservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1E0B14C-FA00-5B99-2686-FB7FE7461915}|SopaDeLetras.Web.csproj|e:\\documentos\\politecnico jic\\programaci\u00F3n distribuida y paralela\\sopadeletras.web\\pages\\juego.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C1E0B14C-FA00-5B99-2686-FB7FE7461915}|SopaDeLetras.Web.csproj|solutionrelative:pages\\juego.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1E0B14C-FA00-5B99-2686-FB7FE7461915}|SopaDeLetras.Web.csproj|e:\\documentos\\politecnico jic\\programaci\u00F3n distribuida y paralela\\sopadeletras.web\\wwwroot\\js\\juego.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{C1E0B14C-FA00-5B99-2686-FB7FE7461915}|SopaDeLetras.Web.csproj|solutionrelative:wwwroot\\js\\juego.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1E0B14C-FA00-5B99-2686-FB7FE7461915}|SopaDeLetras.Web.csproj|e:\\documentos\\politecnico jic\\programaci\u00F3n distribuida y paralela\\sopadeletras.web\\wwwroot\\css\\juego.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{C1E0B14C-FA00-5B99-2686-FB7FE7461915}|SopaDeLetras.Web.csproj|solutionrelative:wwwroot\\css\\juego.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1E0B14C-FA00-5B99-2686-FB7FE7461915}|SopaDeLetras.Web.csproj|e:\\documentos\\politecnico jic\\programaci\u00F3n distribuida y paralela\\sopadeletras.web\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C1E0B14C-FA00-5B99-2686-FB7FE7461915}|SopaDeLetras.Web.csproj|solutionrelative:pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1E0B14C-FA00-5B99-2686-FB7FE7461915}|SopaDeLetras.Web.csproj|e:\\documentos\\politecnico jic\\programaci\u00F3n distribuida y paralela\\sopadeletras.web\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1E0B14C-FA00-5B99-2686-FB7FE7461915}|SopaDeLetras.Web.csproj|solutionrelative:pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1E0B14C-FA00-5B99-2686-FB7FE7461915}|SopaDeLetras.Web.csproj|e:\\documentos\\politecnico jic\\programaci\u00F3n distribuida y paralela\\sopadeletras.web\\services\\gamesockethandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1E0B14C-FA00-5B99-2686-FB7FE7461915}|SopaDeLetras.Web.csproj|solutionrelative:services\\gamesockethandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1E0B14C-FA00-5B99-2686-FB7FE7461915}|SopaDeLetras.Web.csproj|e:\\documentos\\politecnico jic\\programaci\u00F3n distribuida y paralela\\sopadeletras.web\\services\\palabraservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1E0B14C-FA00-5B99-2686-FB7FE7461915}|SopaDeLetras.Web.csproj|solutionrelative:services\\palabraservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1E0B14C-FA00-5B99-2686-FB7FE7461915}|SopaDeLetras.Web.csproj|e:\\documentos\\politecnico jic\\programaci\u00F3n distribuida y paralela\\sopadeletras.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1E0B14C-FA00-5B99-2686-FB7FE7461915}|SopaDeLetras.Web.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1E0B14C-FA00-5B99-2686-FB7FE7461915}|SopaDeLetras.Web.csproj|e:\\documentos\\politecnico jic\\programaci\u00F3n distribuida y paralela\\sopadeletras.web\\models\\sesionjuego.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1E0B14C-FA00-5B99-2686-FB7FE7461915}|SopaDeLetras.Web.csproj|solutionrelative:models\\sesionjuego.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1E0B14C-FA00-5B99-2686-FB7FE7461915}|SopaDeLetras.Web.csproj|e:\\documentos\\politecnico jic\\programaci\u00F3n distribuida y paralela\\sopadeletras.web\\data\\palabras.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C1E0B14C-FA00-5B99-2686-FB7FE7461915}|SopaDeLetras.Web.csproj|solutionrelative:data\\palabras.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1E0B14C-FA00-5B99-2686-FB7FE7461915}|SopaDeLetras.Web.csproj|e:\\documentos\\politecnico jic\\programaci\u00F3n distribuida y paralela\\sopadeletras.web\\models\\tablero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1E0B14C-FA00-5B99-2686-FB7FE7461915}|SopaDeLetras.Web.csproj|solutionrelative:models\\tablero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1E0B14C-FA00-5B99-2686-FB7FE7461915}|SopaDeLetras.Web.csproj|e:\\documentos\\politecnico jic\\programaci\u00F3n distribuida y paralela\\sopadeletras.web\\models\\palabra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1E0B14C-FA00-5B99-2686-FB7FE7461915}|SopaDeLetras.Web.csproj|solutionrelative:models\\palabra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\Documentos\\Politecnico JIC\\Programaci\u00F3n distribuida y paralela\\SopaDeLetras.Web\\Pages\\Index.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Index.cshtml",
+              "ToolTip": "E:\\Documentos\\Politecnico JIC\\Programaci\u00F3n distribuida y paralela\\SopaDeLetras.Web\\Pages\\Index.cshtml",
+              "RelativeToolTip": "Pages\\Index.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACYAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-02T19:59:33.903Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "juego.js",
+              "DocumentMoniker": "E:\\Documentos\\Politecnico JIC\\Programaci\u00F3n distribuida y paralela\\SopaDeLetras.Web\\wwwroot\\js\\juego.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\juego.js",
+              "ToolTip": "E:\\Documentos\\Politecnico JIC\\Programaci\u00F3n distribuida y paralela\\SopaDeLetras.Web\\wwwroot\\js\\juego.js",
+              "RelativeToolTip": "wwwroot\\js\\juego.js",
+              "ViewState": "AgIAAIAAAAAAAAAAAAAIwJUAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-06-02T02:15:59.316Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Juego.cshtml",
+              "DocumentMoniker": "E:\\Documentos\\Politecnico JIC\\Programaci\u00F3n distribuida y paralela\\SopaDeLetras.Web\\Pages\\Juego.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Juego.cshtml",
+              "ToolTip": "E:\\Documentos\\Politecnico JIC\\Programaci\u00F3n distribuida y paralela\\SopaDeLetras.Web\\Pages\\Juego.cshtml",
+              "RelativeToolTip": "Pages\\Juego.cshtml",
+              "ViewState": "AgIAACgAAAAAAAAAAAAAAD0AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-02T01:33:22.91Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\Documentos\\Politecnico JIC\\Programaci\u00F3n distribuida y paralela\\SopaDeLetras.Web\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "E:\\Documentos\\Politecnico JIC\\Programaci\u00F3n distribuida y paralela\\SopaDeLetras.Web\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAB4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-31T04:36:16.769Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "GameSocketHandler.cs",
+              "DocumentMoniker": "E:\\Documentos\\Politecnico JIC\\Programaci\u00F3n distribuida y paralela\\SopaDeLetras.Web\\Services\\GameSocketHandler.cs",
+              "RelativeDocumentMoniker": "Services\\GameSocketHandler.cs",
+              "ToolTip": "E:\\Documentos\\Politecnico JIC\\Programaci\u00F3n distribuida y paralela\\SopaDeLetras.Web\\Services\\GameSocketHandler.cs",
+              "RelativeToolTip": "Services\\GameSocketHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-31T04:10:30.28Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TableroService.cs",
+              "DocumentMoniker": "E:\\Documentos\\Politecnico JIC\\Programaci\u00F3n distribuida y paralela\\SopaDeLetras.Web\\Services\\TableroService.cs",
+              "RelativeDocumentMoniker": "Services\\TableroService.cs",
+              "ToolTip": "E:\\Documentos\\Politecnico JIC\\Programaci\u00F3n distribuida y paralela\\SopaDeLetras.Web\\Services\\TableroService.cs",
+              "RelativeToolTip": "Services\\TableroService.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAgwDkAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-31T01:47:57.358Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PalabraService.cs",
+              "DocumentMoniker": "E:\\Documentos\\Politecnico JIC\\Programaci\u00F3n distribuida y paralela\\SopaDeLetras.Web\\Services\\PalabraService.cs",
+              "RelativeDocumentMoniker": "Services\\PalabraService.cs",
+              "ToolTip": "E:\\Documentos\\Politecnico JIC\\Programaci\u00F3n distribuida y paralela\\SopaDeLetras.Web\\Services\\PalabraService.cs",
+              "RelativeToolTip": "Services\\PalabraService.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAwwBsAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-31T01:24:17.967Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "SesionJuego.cs",
+              "DocumentMoniker": "E:\\Documentos\\Politecnico JIC\\Programaci\u00F3n distribuida y paralela\\SopaDeLetras.Web\\Models\\SesionJuego.cs",
+              "RelativeDocumentMoniker": "Models\\SesionJuego.cs",
+              "ToolTip": "E:\\Documentos\\Politecnico JIC\\Programaci\u00F3n distribuida y paralela\\SopaDeLetras.Web\\Models\\SesionJuego.cs",
+              "RelativeToolTip": "Models\\SesionJuego.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-31T01:11:33.21Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "palabras.json",
+              "DocumentMoniker": "E:\\Documentos\\Politecnico JIC\\Programaci\u00F3n distribuida y paralela\\SopaDeLetras.Web\\Data\\palabras.json",
+              "RelativeDocumentMoniker": "Data\\palabras.json",
+              "ToolTip": "E:\\Documentos\\Politecnico JIC\\Programaci\u00F3n distribuida y paralela\\SopaDeLetras.Web\\Data\\palabras.json",
+              "RelativeToolTip": "Data\\palabras.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-05-31T00:49:42.071Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Juego.cshtml.cs",
+              "DocumentMoniker": "E:\\Documentos\\Politecnico JIC\\Programaci\u00F3n distribuida y paralela\\SopaDeLetras.Web\\Pages\\Juego.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Juego.cshtml.cs",
+              "ToolTip": "E:\\Documentos\\Politecnico JIC\\Programaci\u00F3n distribuida y paralela\\SopaDeLetras.Web\\Pages\\Juego.cshtml.cs",
+              "RelativeToolTip": "Pages\\Juego.cshtml.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwCUAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-02T01:16:49.779Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "E:\\Documentos\\Politecnico JIC\\Programaci\u00F3n distribuida y paralela\\SopaDeLetras.Web\\Pages\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Index.cshtml.cs",
+              "ToolTip": "E:\\Documentos\\Politecnico JIC\\Programaci\u00F3n distribuida y paralela\\SopaDeLetras.Web\\Pages\\Index.cshtml.cs",
+              "RelativeToolTip": "Pages\\Index.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-02T02:55:38.518Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "juego.css",
+              "DocumentMoniker": "E:\\Documentos\\Politecnico JIC\\Programaci\u00F3n distribuida y paralela\\SopaDeLetras.Web\\wwwroot\\css\\juego.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\juego.css",
+              "ToolTip": "E:\\Documentos\\Politecnico JIC\\Programaci\u00F3n distribuida y paralela\\SopaDeLetras.Web\\wwwroot\\css\\juego.css",
+              "RelativeToolTip": "wwwroot\\css\\juego.css",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAAAGIAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-06-02T02:44:26.767Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Tablero.cs",
+              "DocumentMoniker": "E:\\Documentos\\Politecnico JIC\\Programaci\u00F3n distribuida y paralela\\SopaDeLetras.Web\\Models\\Tablero.cs",
+              "RelativeDocumentMoniker": "Models\\Tablero.cs",
+              "ToolTip": "E:\\Documentos\\Politecnico JIC\\Programaci\u00F3n distribuida y paralela\\SopaDeLetras.Web\\Models\\Tablero.cs",
+              "RelativeToolTip": "Models\\Tablero.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-31T01:03:07.833Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Palabra.cs",
+              "DocumentMoniker": "E:\\Documentos\\Politecnico JIC\\Programaci\u00F3n distribuida y paralela\\SopaDeLetras.Web\\Models\\Palabra.cs",
+              "RelativeDocumentMoniker": "Models\\Palabra.cs",
+              "ToolTip": "E:\\Documentos\\Politecnico JIC\\Programaci\u00F3n distribuida y paralela\\SopaDeLetras.Web\\Models\\Palabra.cs",
+              "RelativeToolTip": "Models\\Palabra.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAACKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-31T00:57:12.503Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

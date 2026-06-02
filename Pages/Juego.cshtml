@@ -1,0 +1,62 @@
+﻿@page 
+@model SopaDeLetras.Web.Pages.JuegoModel 
+@{
+    ViewData["Title"] = "Sopa de Letras"; // Título de la página
+    var sesionId = ViewData["SesionId"]?.ToString(); // Corregido: "sesionId" con dos 's'
+}
+
+<link rel="stylesheet" href="~/css/juego.css" />
+
+<div class="container"><!-- Contenedor principal de la página -->
+    <h2>🔤 Sopa de Letras — @Model.Categoria</h2>
+
+    <!-- Timer -->
+    <div class="timer">⏱ Tiempo: <span id="timer">0</span>s</div>
+
+    <!-- Palabras a encontrar -->
+    <div class="palabras-lista">
+        @foreach (var p in Model.Tablero.Palabras) 
+        {
+            <span id="pal-@p.Texto" class="palabra-tag">@p.Texto</span>
+        }
+    </div>
+
+    <!-- Botones de acción -->
+    <div class="botones-accion">
+        <button id="btn-iniciar" onclick="iniciarJuego()" class="btn-iniciar">▶ INICIAR JUEGO</button>
+        <button onclick="resolver()" class="btn-resolver">🔍 RESOLVER</button>
+        <button onclick="reiniciarJuego()" class="btn-reiniciar">🔄 NUEVO JUEGO</button>
+    </div>
+
+    <!-- Tablero bloqueado hasta que se inicie -->
+    <table class="tablero tablero-bloqueado" id="tablero">
+        @for (int f = 0; f < Model.Tablero.Tamanio; f++)
+        {
+            <tr>
+                @for (int c = 0; c < Model.Tablero.Tamanio; c++)
+                {
+                    <td data-fila="@f" data-col="@c">
+                        @Model.Tablero.Celdas[f, c]
+                    </td>
+                }
+            </tr>
+        }
+    </table>
+</div>
+
+<script> 
+       const palabras = @Html.Raw(System.Text.Json.JsonSerializer.Serialize(
+                Model.Tablero.Palabras.Select(p => new
+                {
+                        texto = p.Texto,
+                        fila = p.FilaInicio,
+                        col = p.ColInicio,
+                        dir = p.Direccion
+                })
+        ));
+       const sesionId = "@ViewData["SesionId"]";
+       const categoriaActual = "@Model.Categoria";
+       const sizeActual = @Model.Size;
+</script>
+
+<script src="~/js/juego.js?v=12"></script>
